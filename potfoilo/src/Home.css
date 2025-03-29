@@ -1,0 +1,52 @@
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+    background-color: #0d0a0a;
+  }
+  #home #content{ background: linear-gradient(45deg, #022b46, #bcd4f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;}
+    
+  #home #intro{
+    width:20ch;
+    font-family: monospace;
+    font-size: 3rem;
+    color:cyan;
+    overflow: hidden;text-wrap: nowrap;
+    animation: typing 2s steps(20) infinite reverse;
+    margin-bottom:0px;
+    margin-left: 40px;
+  }
+  @keyframes typing{from{width: 0ch;}}
+  #home p {
+    font-size: 1.5rem;
+    color: #afa5ab;
+  }
+ 
+ 
+  #home .containr {
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Vertically center the items */
+    gap: 20px; /* Add space between the two divs */
+  }
+  #home .content{
+   
+      width: 400px; /* Set the width of the element */
+      height: 350px; /* Set the height of the element */
+      background: url('hrithik.png');
+      background-size: contain; /* Resize the image to cover the element */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; 
+      
+        filter: drop-shadow(5px 5px 10px rgba(249, 246, 246, 0.5));
+     
+    
+   
+  
+  }
+  
+  

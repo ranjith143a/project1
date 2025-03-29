@@ -1,0 +1,26 @@
+#skills {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #skills ul li {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
